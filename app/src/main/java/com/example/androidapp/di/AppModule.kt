@@ -37,10 +37,6 @@ object AppModule {
             .create(CommonApiService::class.java)
     }
 
-//    @Singleton
-//    @Provides
-//    fun providesHomeRepo(api:CommonApiService)= HomeRepository(api)
-
 
     @Singleton
     @Provides
