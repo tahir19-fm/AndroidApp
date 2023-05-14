@@ -5,6 +5,7 @@
     android:layout_margin="20dp"
     app:cardCornerRadius="16dp"
     android:elevation="12dp"
+    android:padding="5dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
         <LinearLayout
@@ -38,8 +39,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="15sp"
-                        android:textColor="  #6495ED"
+                        android:textColor="#6495ED"
                         android:textStyle="bold"
+                        android:maxLines="2"
                         android:text="Apple admits slowing down Older Iphones "
                         tools:ignore="InvalidId" />
 
@@ -48,6 +50,7 @@
                         android:textColor="#87CEEB"
                         android:layout_width="match_parent"
                         android:layout_height = "wrap_content"
+                        android:maxLines="3"
                         android:text="customers have long suspected iphones to slow down for reasons unknown"
                         tools:ignore="InvalidId" />
 
